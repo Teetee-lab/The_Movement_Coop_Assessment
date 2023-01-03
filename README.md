@@ -18,9 +18,11 @@ Even though this is not the best option for matching the input data with the cou
 
 ### Repository Structure
 
-├── notebooks                   <- Directory containing project  notebooks
-│   ├── Assessment_notebook.ipynb     <- documentation of the assessment in Jupyter notebook            
-├── match_input.csv              <- matching_input csv dataset 
-├── matched_voters_id            <- The output/result 
-└── README.md                    <- Top-level README
+    ├── Data Cleaning.ipynb     <- documentation of the data gathering,and matching in Jupyter notebook 
+    
+    ├── match_input.csv                    <- matching_input dataset
+    
+    ├── matched_voters_id            <- output/result
+    
+    └── README.md                   <- Top-level README
 
