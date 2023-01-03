@@ -16,4 +16,11 @@ At first I wanted to use a database to store my data but most of them required t
 ### Next Steps:
 Even though this is not the best option for matching the input data with the county dataset, In the future I plan to create a table in the database and host it using the cloud then use SQL join to merge all county dataset using their unique ids and then match the input data to get the output. 
 
+### Repository Structure
+
+├── notebooks                   <- Directory containing project  notebooks
+│   ├── Assessment_notebook.ipynb     <- documentation of the assessment in Jupyter notebook            
+├── match_input.csv              <- matching_input csv dataset 
+├── matched_voters_id            <- The output/result 
+└── README.md                    <- Top-level README
 
